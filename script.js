@@ -55,7 +55,7 @@ function showAlertAfterTransition(message) {
     const label = document.querySelector('.click');
     label.addEventListener('transitionend', function () {
         Swal.fire({
-            title: '¡Father Day!',
+            title: '¡Amor De Mi Vida!',
             html: '<span style="color: #333;">' + message + '</span>',
             icon: 'success',
             showCloseButton: true,
